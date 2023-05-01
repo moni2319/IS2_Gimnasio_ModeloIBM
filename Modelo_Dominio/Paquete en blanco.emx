@@ -1103,6 +1103,20 @@
       </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_RDi6IORIEe2MD_gCxf5htw" name="Material">
+      <eAnnotations xmi:id="_vILmwOhLEe218Z-aqW8W4Q" source="uml2.diagrams">
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_vILmwehLEe218Z-aqW8W4Q" type="Usecase" name="DiagramaDeCasoDeUso1">
+          <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_0Ny1sOhLEe218Z-aqW8W4Q" element="_0NsvEOhLEe218Z-aqW8W4Q" fontName="Segoe UI" fontHeight="8" fillColor="15912618" transparency="0" lineColor="15912618" lineWidth="1" showStereotype="Label">
+            <children xmi:type="notation:DecorationNode" xmi:id="_0NzcwOhLEe218Z-aqW8W4Q" type="ImageCompartment">
+              <layoutConstraint xmi:type="notation:Size" xmi:id="_0NzcwehLEe218Z-aqW8W4Q" width="1455" height="2381"/>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_0NzcwuhLEe218Z-aqW8W4Q" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_0Nzcw-hLEe218Z-aqW8W4Q" type="Name"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_0N0D0OhLEe218Z-aqW8W4Q" type="Parent"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0Ny1sehLEe218Z-aqW8W4Q" x="4884" y="4620"/>
+          </children>
+          <element xsi:nil="true"/>
+        </contents>
+      </eAnnotations>
       <ownedAttribute xmi:id="_8LmzMORNEe2MD_gCxf5htw" name="id" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedAttribute>
@@ -1112,6 +1126,18 @@
       <ownedAttribute xmi:id="_CG-lcOROEe2MD_gCxf5htw" name="stock" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedAttribute>
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_wMXAkOhLEe218Z-aqW8W4Q" name="Interaction1">
+        <eAnnotations xmi:id="_wMqikOhLEe218Z-aqW8W4Q" source="uml2.diagrams">
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_wMqikehLEe218Z-aqW8W4Q" type="Sequence" element="_wMXAkOhLEe218Z-aqW8W4Q" name="DiagramaDeSecuencia1" measurementUnit="Himetric">
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_wMqikuhLEe218Z-aqW8W4Q" element="_wMXAkOhLEe218Z-aqW8W4Q" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_wMqik-hLEe218Z-aqW8W4Q" type="interaction_compartment"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_wMqilOhLEe218Z-aqW8W4Q" type="Name"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wMqilehLEe218Z-aqW8W4Q" x="793" y="793"/>
+            </children>
+          </contents>
+        </eAnnotations>
+      </ownedBehavior>
+      <nestedClassifier xmi:type="uml:Actor" xmi:id="_0NsvEOhLEe218Z-aqW8W4Q" name="Actor1"/>
       <ownedOperation xmi:id="_kkYPcOgMEe2MKukoEvx4yQ" name="getID">
         <ownedParameter xmi:id="_l1AJ0OgMEe2MKukoEvx4yQ" name="Parameter1" direction="return">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
