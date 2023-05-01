@@ -83,7 +83,7 @@
           <children xmi:type="notation:SemanticListCompartment" xmi:id="_PYWjoORIEe2MD_gCxf5htw" type="OperationCompartment"/>
           <children xmi:type="notation:SemanticListCompartment" xmi:id="_PYXKsORIEe2MD_gCxf5htw" visible="false" type="SignalCompartment"/>
           <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_PYXKseRIEe2MD_gCxf5htw" visible="false" type="StructureCompartment"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PYUuceRIEe2MD_gCxf5htw" x="10701" y="1476" width="3604" height="3102"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PYUuceRIEe2MD_gCxf5htw" x="10701" y="1476" width="3604" height="5350"/>
         </children>
         <children xmi:type="umlnotation:UMLShape" xmi:id="_RDlWYORIEe2MD_gCxf5htw" element="_RDi6IORIEe2MD_gCxf5htw" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
           <children xmi:type="notation:DecorationNode" xmi:id="_RDlWYuRIEe2MD_gCxf5htw" type="ImageCompartment">
@@ -1072,6 +1072,38 @@
       <ownedAttribute xmi:id="_h_RJgORKEe2MD_gCxf5htw" name="apellido" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedAttribute>
+      <ownedOperation xmi:id="_ExJxkOgQEe2MKukoEvx4yQ" name="getCod">
+        <ownedParameter xmi:id="_Fr0DAOgQEe2MKukoEvx4yQ" name="Parameter1" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_GAt8AOgQEe2MKukoEvx4yQ" name="getSalario">
+        <ownedParameter xmi:id="_G5PfcOgQEe2MKukoEvx4yQ" name="Parameter1" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_HJzD8OgQEe2MKukoEvx4yQ" name="getName">
+        <ownedParameter xmi:id="_ILHXAOgQEe2MKukoEvx4yQ" name="Parameter1" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IWzCkOgQEe2MKukoEvx4yQ" name="getApellido">
+        <ownedParameter xmi:id="_J31XgOgQEe2MKukoEvx4yQ" name="Parameter1" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_KDEXIOgQEe2MKukoEvx4yQ" name="setCod">
+        <ownedParameter xmi:id="_LajugOgQEe2MKukoEvx4yQ" name="Integer"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_LmZyIOgQEe2MKukoEvx4yQ" name="setSalario">
+        <ownedParameter xmi:id="_M7IwcOgQEe2MKukoEvx4yQ" name="Integer"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_NF85UOgQEe2MKukoEvx4yQ" name="setName">
+        <ownedParameter xmi:id="_Nxi0AOgQEe2MKukoEvx4yQ" name="String"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_N9KOIOgQEe2MKukoEvx4yQ" name="setApellido">
+        <ownedParameter xmi:id="_O3MNcOgQEe2MKukoEvx4yQ" name="String"/>
+      </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_RDi6IORIEe2MD_gCxf5htw" name="Material">
       <ownedAttribute xmi:id="_8LmzMORNEe2MD_gCxf5htw" name="id" visibility="private">
