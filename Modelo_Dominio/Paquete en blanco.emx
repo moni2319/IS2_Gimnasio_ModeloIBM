@@ -70,7 +70,7 @@
           <children xmi:type="notation:SemanticListCompartment" xmi:id="_E5JZ0uRIEe2MD_gCxf5htw" type="OperationCompartment"/>
           <children xmi:type="notation:SemanticListCompartment" xmi:id="_E5JZ0-RIEe2MD_gCxf5htw" visible="false" type="SignalCompartment"/>
           <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_E5KA4ORIEe2MD_gCxf5htw" visible="false" type="StructureCompartment"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_E5ILseRIEe2MD_gCxf5htw" x="7524" y="12540" width="3628" height="4853"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_E5ILseRIEe2MD_gCxf5htw" x="6642" y="12300" width="3628" height="4853"/>
         </children>
         <children xmi:type="umlnotation:UMLShape" xmi:id="_PYUucORIEe2MD_gCxf5htw" element="_PYREEORIEe2MD_gCxf5htw" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
           <children xmi:type="notation:DecorationNode" xmi:id="_PYVVgORIEe2MD_gCxf5htw" type="ImageCompartment">
@@ -918,13 +918,7 @@
       <ownedAttribute xmi:id="_Phrh8ORMEe2MD_gCxf5htw" name="precio" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_m1Dh0ORMEe2MD_gCxf5htw" name="duracion" visibility="private">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:id="_oQENoORUEe2MD_gCxf5htw" name="horaComienzo" visibility="private">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:id="_udpxQORUEe2MD_gCxf5htw" name="descripcion" visibility="private">
+      <ownedAttribute xmi:id="_MfVLQORMEe2MD_gCxf5htw" name="nombre" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedAttribute>
       <ownedOperation xmi:id="_kHhe4OgNEe2MKukoEvx4yQ" name="getID">
@@ -934,11 +928,6 @@
       </ownedOperation>
       <ownedOperation xmi:id="_lm7cIOgNEe2MKukoEvx4yQ" name="getPrecio">
         <ownedParameter xmi:id="_mvtpIOgNEe2MKukoEvx4yQ" name="Parameter1" direction="return">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-        </ownedParameter>
-      </ownedOperation>
-      <ownedOperation xmi:id="_nHFnUOgNEe2MKukoEvx4yQ" name="getDuracion">
-        <ownedParameter xmi:id="_orO6oOgNEe2MKukoEvx4yQ" name="Parameter1" direction="return">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
         </ownedParameter>
       </ownedOperation>
@@ -958,14 +947,16 @@
       <ownedOperation xmi:id="_tVb_8OgNEe2MKukoEvx4yQ" name="setPrecio">
         <ownedParameter xmi:id="_vPn0sOgNEe2MKukoEvx4yQ" name="Integer"/>
       </ownedOperation>
-      <ownedOperation xmi:id="_vkzagOgNEe2MKukoEvx4yQ" name="setDuracion">
-        <ownedParameter xmi:id="_wug0kOgNEe2MKukoEvx4yQ" name="Integer"/>
-      </ownedOperation>
       <ownedOperation xmi:id="_xKdJsOgNEe2MKukoEvx4yQ" name="setHoraComienzo">
         <ownedParameter xmi:id="_yqWPIOgNEe2MKukoEvx4yQ" name="Integer"/>
       </ownedOperation>
       <ownedOperation xmi:id="_y_sNAOgNEe2MKukoEvx4yQ" name="setDescripcion">
         <ownedParameter xmi:id="_z9LwAOgNEe2MKukoEvx4yQ" name="String"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_spOPoOgMEe2MKukoEvx4yQ" name="getName">
+        <ownedParameter xmi:id="_tpeywOgMEe2MKukoEvx4yQ" name="Parameter1" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
       </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="__GI5YORHEe2MD_gCxf5htw" name="Entrenamiento">
@@ -1257,9 +1248,6 @@
       <ownedAttribute xmi:id="_XWG9AORLEe2MD_gCxf5htw" name="numEjercicios" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_GT-bcOR8Ee2nKe5DJz1QTA" name="nombre" visibility="private">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      </ownedAttribute>
       <ownedAttribute xmi:id="_JCugsOR8Ee2nKe5DJz1QTA" name="repeticiones" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedAttribute>
@@ -1343,11 +1331,6 @@
       <ownedOperation xmi:id="_vqQXsOgMEe2MKukoEvx4yQ" name="getRepeticiones">
         <ownedParameter xmi:id="_1OUdMOgMEe2MKukoEvx4yQ" name="Parameter1" direction="return">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-        </ownedParameter>
-      </ownedOperation>
-      <ownedOperation xmi:id="_spOPoOgMEe2MKukoEvx4yQ" name="getName">
-        <ownedParameter xmi:id="_tpeywOgMEe2MKukoEvx4yQ" name="Parameter1" direction="return">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
         </ownedParameter>
       </ownedOperation>
     </packagedElement>
@@ -1637,9 +1620,6 @@
         </contents>
       </eAnnotations>
       <generalization xmi:id="_M9RBQORIEe2MD_gCxf5htw" general="_AtGsoORHEe2MD_gCxf5htw"/>
-      <ownedAttribute xmi:id="_MfVLQORMEe2MD_gCxf5htw" name="nombre" visibility="private">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      </ownedAttribute>
       <ownedAttribute xmi:id="_HUyHEOROEe2MD_gCxf5htw" name="aforo" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedAttribute>
