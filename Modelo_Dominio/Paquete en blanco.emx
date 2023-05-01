@@ -864,20 +864,44 @@
       <ownedAttribute xmi:id="_Q6O-YOROEe2MD_gCxf5htw" name="id" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_DPkpgOehEe2sqcalpcIaeA" name="Property"/>
+      <ownedAttribute xmi:id="_DPkpgOehEe2sqcalpcIaeA" name="Actor: Administrador"/>
+      <ownedAttribute xmi:id="_U_fYIeeyEe2sqcalpcIaeA" name="administrador" type="_Cgfn4OefEe2sqcalpcIaeA"/>
+      <ownedAttribute xmi:id="_2QIAcOe0Ee2sqcalpcIaeA" name="Sistema"/>
+      <ownedAttribute xmi:id="_31CIwee0Ee2sqcalpcIaeA" name="BBDD Actividades"/>
       <ownedBehavior xmi:type="uml:Interaction" xmi:id="_3mqXkOeeEe2sqcalpcIaeA" name="Interaction1">
         <eAnnotations xmi:id="_3nHDgOeeEe2sqcalpcIaeA" source="uml2.diagrams">
           <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_3nHDgeeeEe2sqcalpcIaeA" type="Sequence" element="_3mqXkOeeEe2sqcalpcIaeA" name="DiagramaDeSecuenciaActividad" measurementUnit="Himetric">
             <children xmi:type="umlnotation:UMLShape" xmi:id="_3nHDgueeEe2sqcalpcIaeA" element="_3mqXkOeeEe2sqcalpcIaeA" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
               <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_3nHDg-eeEe2sqcalpcIaeA" type="interaction_compartment">
-                <children xmi:type="umlnotation:UMLShape" xmi:id="_DPtMYOehEe2sqcalpcIaeA" element="_DPkCcOehEe2sqcalpcIaeA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
-                  <eAnnotations xmi:id="_DPtMYuehEe2sqcalpcIaeA" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
-                    <details xmi:id="_DP2WUOehEe2sqcalpcIaeA" key="LifelineLabelStyle" value="Represents Name and Type Name"/>
+                <eAnnotations xmi:id="_JdNAsOeyEe2sqcalpcIaeA" source="Himetric"/>
+                <eAnnotations xmi:id="_Jr_DkOeyEe2sqcalpcIaeA" source="Himetric"/>
+                <eAnnotations xmi:id="_J0qecOeyEe2sqcalpcIaeA" source="Himetric"/>
+                <children xmi:type="umlnotation:UMLShape" xmi:id="_U_h0YOeyEe2sqcalpcIaeA" element="_U_fYIOeyEe2sqcalpcIaeA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                  <eAnnotations xmi:id="_U_h0YueyEe2sqcalpcIaeA" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
+                    <details xmi:id="_U_h0Y-eyEe2sqcalpcIaeA" key="LifelineLabelStyle" value="Represents Name and Type Name"/>
                   </eAnnotations>
-                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_DP29YOehEe2sqcalpcIaeA" type="Stereotype"/>
-                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_DP29YeehEe2sqcalpcIaeA" type="Name"/>
-                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_DP29YuehEe2sqcalpcIaeA" type="Parent"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DPtMYeehEe2sqcalpcIaeA" x="1345" y="62" width="1692" height="6350"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_U_h0ZOeyEe2sqcalpcIaeA" type="Stereotype"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_U_ibcOeyEe2sqcalpcIaeA" type="Name"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_U_ibceeyEe2sqcalpcIaeA" type="Parent"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_U_h0YeeyEe2sqcalpcIaeA" x="2206" y="185" width="4443" height="6350"/>
+                </children>
+                <children xmi:type="umlnotation:UMLShape" xmi:id="_2QJ1oOe0Ee2sqcalpcIaeA" element="_2QHZYOe0Ee2sqcalpcIaeA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                  <eAnnotations xmi:id="_2QLDwOe0Ee2sqcalpcIaeA" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
+                    <details xmi:id="_2QLDwee0Ee2sqcalpcIaeA" key="LifelineLabelStyle" value="Represents Name and Type Name"/>
+                  </eAnnotations>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_2QLDwue0Ee2sqcalpcIaeA" type="Stereotype"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_2QLDw-e0Ee2sqcalpcIaeA" type="Name"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_2QLDxOe0Ee2sqcalpcIaeA" type="Parent"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2QJ1oee0Ee2sqcalpcIaeA" x="176"/>
+                </children>
+                <children xmi:type="umlnotation:UMLShape" xmi:id="_31GaMOe0Ee2sqcalpcIaeA" element="_31CIwOe0Ee2sqcalpcIaeA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                  <eAnnotations xmi:id="_31GaMue0Ee2sqcalpcIaeA" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
+                    <details xmi:id="_31GaM-e0Ee2sqcalpcIaeA" key="LifelineLabelStyle" value="Represents Name and Type Name"/>
+                  </eAnnotations>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_31HBQOe0Ee2sqcalpcIaeA" type="Stereotype"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_31HBQee0Ee2sqcalpcIaeA" type="Name"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_31HoUOe0Ee2sqcalpcIaeA" type="Parent"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_31GaMee0Ee2sqcalpcIaeA" x="3617" y="185" width="2804" height="6350"/>
                 </children>
               </children>
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_3nHDhOeeEe2sqcalpcIaeA" type="Name"/>
@@ -885,16 +909,27 @@
             </children>
           </contents>
         </eAnnotations>
-        <lifeline xmi:id="_DPkCcOehEe2sqcalpcIaeA" name="Property" represents="_DPkpgOehEe2sqcalpcIaeA"/>
+        <ownedConnector xmi:id="_-5oz8Oe0Ee2sqcalpcIaeA">
+          <end xmi:id="_-5rQMOe0Ee2sqcalpcIaeA" role="_2QIAcOe0Ee2sqcalpcIaeA"/>
+          <end xmi:id="_-5r3QOe0Ee2sqcalpcIaeA" role="_U_fYIeeyEe2sqcalpcIaeA"/>
+        </ownedConnector>
+        <ownedConnector xmi:id="_RoV5Uue2Ee2sqcalpcIaeA">
+          <end xmi:id="_RoV5U-e2Ee2sqcalpcIaeA" role="_2QIAcOe0Ee2sqcalpcIaeA"/>
+          <end xmi:id="_RoV5VOe2Ee2sqcalpcIaeA" role="_31CIwee0Ee2sqcalpcIaeA"/>
+        </ownedConnector>
+        <lifeline xmi:id="_U_fYIOeyEe2sqcalpcIaeA" name="administrador" represents="_U_fYIeeyEe2sqcalpcIaeA"/>
+        <lifeline xmi:id="_2QHZYOe0Ee2sqcalpcIaeA" name="Property" represents="_2QIAcOe0Ee2sqcalpcIaeA"/>
+        <lifeline xmi:id="_31CIwOe0Ee2sqcalpcIaeA" name="Property2" represents="_31CIwee0Ee2sqcalpcIaeA"/>
       </ownedBehavior>
       <nestedClassifier xmi:type="uml:Actor" xmi:id="_Cgfn4OefEe2sqcalpcIaeA" name="Administrador"/>
-      <nestedClassifier xmi:type="uml:Component" xmi:id="_N3DQcOefEe2sqcalpcIaeA" name="Component1" useCase="_PJg94OefEe2sqcalpcIaeA _dUaWUOefEe2sqcalpcIaeA _pUWTEOefEe2sqcalpcIaeA _taiFUOefEe2sqcalpcIaeA _zMwioOefEe2sqcalpcIaeA">
+      <nestedClassifier xmi:type="uml:Component" xmi:id="_N3DQcOefEe2sqcalpcIaeA" name="Actividad" useCase="_PJg94OefEe2sqcalpcIaeA _dUaWUOefEe2sqcalpcIaeA _pUWTEOefEe2sqcalpcIaeA _taiFUOefEe2sqcalpcIaeA _zMwioOefEe2sqcalpcIaeA">
         <ownedUseCase xmi:id="_PJg94OefEe2sqcalpcIaeA" name="Alta Actividad" subject="_N3DQcOefEe2sqcalpcIaeA"/>
         <ownedUseCase xmi:id="_dUaWUOefEe2sqcalpcIaeA" name="Baja Actividad" subject="_N3DQcOefEe2sqcalpcIaeA"/>
         <ownedUseCase xmi:id="_pUWTEOefEe2sqcalpcIaeA" name="Modificar Alta" subject="_N3DQcOefEe2sqcalpcIaeA"/>
         <ownedUseCase xmi:id="_taiFUOefEe2sqcalpcIaeA" name="Mostrar Actividad" subject="_N3DQcOefEe2sqcalpcIaeA"/>
         <ownedUseCase xmi:id="_zMwioOefEe2sqcalpcIaeA" name="Listar Alta" subject="_N3DQcOefEe2sqcalpcIaeA"/>
       </nestedClassifier>
+      <nestedClassifier xmi:type="uml:Component" xmi:id="_WXNuIOe0Ee2sqcalpcIaeA" name="PaginaActividad"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_PYREEORIEe2MD_gCxf5htw" name="Monitor">
       <ownedAttribute xmi:id="_ZAiT8ORKEe2MD_gCxf5htw" name="codMonitor" visibility="private">
