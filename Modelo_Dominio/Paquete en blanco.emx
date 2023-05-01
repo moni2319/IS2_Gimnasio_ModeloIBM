@@ -968,6 +968,11 @@
       </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="__GI5YORHEe2MD_gCxf5htw" name="Entrenamiento">
+      <eAnnotations xmi:id="_CA248Oh4Ee2ldI68-LFIVg" source="uml2.diagrams">
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_CA248eh4Ee2ldI68-LFIVg" type="Usecase" name="EntrenamientoCasosdeUso">
+          <element xsi:nil="true"/>
+        </contents>
+      </eAnnotations>
       <generalization xmi:id="_N3DwAORIEe2MD_gCxf5htw" general="_AtGsoORHEe2MD_gCxf5htw"/>
       <ownedAttribute xmi:id="_XWG9AORLEe2MD_gCxf5htw" name="numEjercicios" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
