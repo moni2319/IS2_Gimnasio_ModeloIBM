@@ -2165,7 +2165,7 @@
       <ownedOperation xmi:id="_GCaFcOgNEe2MKukoEvx4yQ" name="getID"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_PYREEORIEe2MD_gCxf5htw" name="Monitor">
-      <ownedAttribute xmi:id="_ZAiT8ORKEe2MD_gCxf5htw" name="codMonitor" visibility="private">
+      <ownedAttribute xmi:id="_ZAiT8ORKEe2MD_gCxf5htw" name="id" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_eFBhgORKEe2MD_gCxf5htw" name="salario" visibility="private">
@@ -2174,7 +2174,7 @@
       <ownedAttribute xmi:id="_gZCLgORKEe2MD_gCxf5htw" name="nombre" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedAttribute>
-      <ownedOperation xmi:id="_ExJxkOgQEe2MKukoEvx4yQ" name="getCod">
+      <ownedOperation xmi:id="_ExJxkOgQEe2MKukoEvx4yQ" name="getId">
         <ownedParameter xmi:id="_Fr0DAOgQEe2MKukoEvx4yQ" name="Parameter1" direction="return">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
         </ownedParameter>
@@ -2189,9 +2189,7 @@
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
         </ownedParameter>
       </ownedOperation>
-      <ownedOperation xmi:id="_KDEXIOgQEe2MKukoEvx4yQ" name="setCod">
-        <ownedParameter xmi:id="_LajugOgQEe2MKukoEvx4yQ" name="Integer"/>
-      </ownedOperation>
+      <ownedOperation xmi:id="_KDEXIOgQEe2MKukoEvx4yQ" name="set Id"/>
       <ownedOperation xmi:id="_LmZyIOgQEe2MKukoEvx4yQ" name="setSalario">
         <ownedParameter xmi:id="_M7IwcOgQEe2MKukoEvx4yQ" name="Integer"/>
       </ownedOperation>
