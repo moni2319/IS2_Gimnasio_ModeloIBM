@@ -439,9 +439,6 @@
       <ownedAttribute xmi:id="_1Xew0ORJEe2MD_gCxf5htw" name="nombre" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_F25JkORKEe2MD_gCxf5htw" name="apellido" visibility="private">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      </ownedAttribute>
       <ownedAttribute xmi:id="_LbjE8ORKEe2MD_gCxf5htw" name="DNI" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedAttribute>
@@ -729,11 +726,6 @@
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
         </ownedParameter>
       </ownedOperation>
-      <ownedOperation xmi:id="_4C8EcOgNEe2MKukoEvx4yQ" name="getApellido">
-        <ownedParameter xmi:id="_5LOiMOgNEe2MKukoEvx4yQ" name="Parameter1" direction="return">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        </ownedParameter>
-      </ownedOperation>
       <ownedOperation xmi:id="_5i8eoOgNEe2MKukoEvx4yQ" name="getDNI">
         <ownedParameter xmi:id="_6VmqoOgNEe2MKukoEvx4yQ" name="Parameter1" direction="return">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
@@ -744,9 +736,6 @@
       </ownedOperation>
       <ownedOperation xmi:id="_72jgAOgNEe2MKukoEvx4yQ" name="setName">
         <ownedParameter xmi:id="_9HI-IOgNEe2MKukoEvx4yQ" name="String"/>
-      </ownedOperation>
-      <ownedOperation xmi:id="_9WpZwOgNEe2MKukoEvx4yQ" name="setApellido">
-        <ownedParameter xmi:id="_-UIVsOgNEe2MKukoEvx4yQ" name="String"/>
       </ownedOperation>
       <ownedOperation xmi:id="_-hHBwOgNEe2MKukoEvx4yQ" name="setDNI">
         <ownedParameter xmi:id="__dlREOgNEe2MKukoEvx4yQ" name="Integer"/>
