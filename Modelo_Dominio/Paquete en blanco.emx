@@ -2182,9 +2182,6 @@
       <ownedAttribute xmi:id="_gZCLgORKEe2MD_gCxf5htw" name="nombre" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_h_RJgORKEe2MD_gCxf5htw" name="apellido" visibility="private">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      </ownedAttribute>
       <ownedOperation xmi:id="_ExJxkOgQEe2MKukoEvx4yQ" name="getCod">
         <ownedParameter xmi:id="_Fr0DAOgQEe2MKukoEvx4yQ" name="Parameter1" direction="return">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
@@ -2200,11 +2197,6 @@
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
         </ownedParameter>
       </ownedOperation>
-      <ownedOperation xmi:id="_IWzCkOgQEe2MKukoEvx4yQ" name="getApellido">
-        <ownedParameter xmi:id="_J31XgOgQEe2MKukoEvx4yQ" name="Parameter1" direction="return">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        </ownedParameter>
-      </ownedOperation>
       <ownedOperation xmi:id="_KDEXIOgQEe2MKukoEvx4yQ" name="setCod">
         <ownedParameter xmi:id="_LajugOgQEe2MKukoEvx4yQ" name="Integer"/>
       </ownedOperation>
@@ -2213,9 +2205,6 @@
       </ownedOperation>
       <ownedOperation xmi:id="_NF85UOgQEe2MKukoEvx4yQ" name="setName">
         <ownedParameter xmi:id="_Nxi0AOgQEe2MKukoEvx4yQ" name="String"/>
-      </ownedOperation>
-      <ownedOperation xmi:id="_N9KOIOgQEe2MKukoEvx4yQ" name="setApellido">
-        <ownedParameter xmi:id="_O3MNcOgQEe2MKukoEvx4yQ" name="String"/>
       </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_RDi6IORIEe2MD_gCxf5htw" name="Material">
