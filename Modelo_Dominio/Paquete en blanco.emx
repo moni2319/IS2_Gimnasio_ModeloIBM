@@ -1074,8 +1074,8 @@
         </contents>
       </eAnnotations>
       <ownedAttribute xmi:id="_AOWCIORJEe2MD_gCxf5htw" name="importe" visibility="private" type="_JiNaMORJEe2MD_gCxf5htw"/>
-      <ownedAttribute xmi:id="_jpcBwORJEe2MD_gCxf5htw" name="descripcion" visibility="private">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <ownedAttribute xmi:id="_JBIJYOkKEe2k1JA_W896dQ" name="id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedAttribute>
       <ownedBehavior xmi:type="uml:Interaction" xmi:id="_qvAoUOehEe2sqcalpcIaeA" name="Interaction1">
         <eAnnotations xmi:id="_qvCdgOehEe2sqcalpcIaeA" source="uml2.diagrams">
@@ -1114,14 +1114,6 @@
       </ownedOperation>
       <ownedOperation xmi:id="_YyHs4OgNEe2MKukoEvx4yQ" name="setImporte">
         <ownedParameter xmi:id="_aELxsOgNEe2MKukoEvx4yQ" name="Integer"/>
-      </ownedOperation>
-      <ownedOperation xmi:id="_c0FGcOgNEe2MKukoEvx4yQ" name="getDescripcion">
-        <ownedParameter xmi:id="_eLF8sOgNEe2MKukoEvx4yQ" name="Parameter1" direction="return">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        </ownedParameter>
-      </ownedOperation>
-      <ownedOperation xmi:id="_gEWkYOgNEe2MKukoEvx4yQ" name="setDescripcion">
-        <ownedParameter xmi:id="_hVgqQOgNEe2MKukoEvx4yQ" name="String"/>
       </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_AtGsoORHEe2MD_gCxf5htw" name="Sesion">
