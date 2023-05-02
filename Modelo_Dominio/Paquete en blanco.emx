@@ -98,19 +98,6 @@
           <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_RDmkgeRIEe2MD_gCxf5htw" visible="false" type="StructureCompartment"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RDlWYeRIEe2MD_gCxf5htw" x="20592" y="6204" width="4122" height="4333"/>
         </children>
-        <children xmi:type="umlnotation:UMLShape" xmi:id="_hAL9AORIEe2MD_gCxf5htw" element="_hAKu4ORIEe2MD_gCxf5htw" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
-          <children xmi:type="notation:DecorationNode" xmi:id="_hAL9AuRIEe2MD_gCxf5htw" type="ImageCompartment">
-            <layoutConstraint xmi:type="notation:Size" xmi:id="_hAL9A-RIEe2MD_gCxf5htw" width="1320" height="1320"/>
-          </children>
-          <children xmi:type="notation:BasicDecorationNode" xmi:id="_hAMkEORIEe2MD_gCxf5htw" type="Stereotype"/>
-          <children xmi:type="notation:BasicDecorationNode" xmi:id="_hAMkEeRIEe2MD_gCxf5htw" type="Name"/>
-          <children xmi:type="notation:BasicDecorationNode" xmi:id="_hAMkEuRIEe2MD_gCxf5htw" type="Parent"/>
-          <children xmi:type="notation:SemanticListCompartment" xmi:id="_hAMkE-RIEe2MD_gCxf5htw" type="AttributeCompartment"/>
-          <children xmi:type="notation:SemanticListCompartment" xmi:id="_hAMkFORIEe2MD_gCxf5htw" type="OperationCompartment"/>
-          <children xmi:type="notation:SemanticListCompartment" xmi:id="_hAMkFeRIEe2MD_gCxf5htw" visible="false" type="SignalCompartment"/>
-          <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_hAMkFuRIEe2MD_gCxf5htw" visible="false" type="StructureCompartment"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hAL9AeRIEe2MD_gCxf5htw" x="10428" y="-792"/>
-        </children>
         <children xmi:type="notation:Shape" xmi:id="_2x28wORMEe2MD_gCxf5htw" type="Note" fontName="Segoe UI" fontHeight="8" description="&lt;p>&lt;span style=&quot;font-size:12pt;&quot;>Obligatorio tener una sesion para poder entrar &lt;/span>&lt;/p>&lt;p>&lt;span style=&quot;font-size:12pt;&quot;>Monitor esta tanto en actividades como en entrenamiento&lt;/span>&lt;/p>&lt;p>&lt;span style=&quot;font-size:12pt;&quot;>tiempo en minutos&lt;/span>&lt;/p>&lt;p>&lt;/p>&lt;p>&lt;/p>" fillColor="13956346" transparency="0" lineColor="12632258" lineWidth="1">
           <children xmi:type="notation:BasicDecorationNode" xmi:id="_2x3j0ORMEe2MD_gCxf5htw" type="DiagramName">
             <element xsi:nil="true"/>
