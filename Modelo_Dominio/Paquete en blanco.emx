@@ -308,7 +308,7 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="__hspcORGEe2MD_gCxf5htw" name="Cliente">
       <eAnnotations xmi:id="_-KyVwOi4Ee28wO_p6nNF3w" source="uml2.diagrams">
-        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_fG0AAOi7Ee28wO_p6nNF3w" type="Usecase" name="DiagramaDeCasoDeUso1">
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_fG0AAOi7Ee28wO_p6nNF3w" type="Usecase" name="DiagramaDeCasoDeUsoCliente">
           <children xmi:type="umlnotation:UMLComponent" xmi:id="_fj5koui7Ee28wO_p6nNF3w" element="_fj5koOi7Ee28wO_p6nNF3w" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
             <children xmi:type="notation:DecorationNode" xmi:id="_fj8n8ei7Ee28wO_p6nNF3w" type="ImageCompartment">
               <layoutConstraint xmi:type="notation:Size" xmi:id="_fj8n8ui7Ee28wO_p6nNF3w" width="1320" height="1320"/>
@@ -2438,7 +2438,7 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_RDi6IORIEe2MD_gCxf5htw" name="Material">
       <eAnnotations xmi:id="_GSaSQOi7Ee28wO_p6nNF3w" source="uml2.diagrams">
-        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_GSaSQei7Ee28wO_p6nNF3w" type="Usecase" name="DiagramaDeCasoDeUso1">
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_GSaSQei7Ee28wO_p6nNF3w" type="Usecase" name="DiagramaDeCasoDeUsoMaterial">
           <children xmi:type="umlnotation:UMLComponent" xmi:id="_GtfEsOi7Ee28wO_p6nNF3w" element="_GtXv8Oi7Ee28wO_p6nNF3w" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
             <children xmi:type="notation:DecorationNode" xmi:id="_GtfEsui7Ee28wO_p6nNF3w" type="ImageCompartment">
               <layoutConstraint xmi:type="notation:Size" xmi:id="_GtfEs-i7Ee28wO_p6nNF3w" width="1320" height="1320"/>
