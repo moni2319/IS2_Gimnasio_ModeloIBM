@@ -684,6 +684,17 @@
           <weight xmi:type="uml:LiteralInteger" xmi:id="_GRBaQuj_Ee29MJdIqWF7Lg" value="1"/>
         </edge>
       </ownedBehavior>
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_CUZhwOkBEe29MJdIqWF7Lg" name="Interaction1">
+        <eAnnotations xmi:id="_CUdMIOkBEe29MJdIqWF7Lg" source="uml2.diagrams">
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_CUdMIekBEe29MJdIqWF7Lg" type="Sequence" element="_CUZhwOkBEe29MJdIqWF7Lg" name="DiagramadeSecuenciaCliente" measurementUnit="Himetric">
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_CUdMIukBEe29MJdIqWF7Lg" element="_CUZhwOkBEe29MJdIqWF7Lg" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_CUdMI-kBEe29MJdIqWF7Lg" type="interaction_compartment"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_CUdMJOkBEe29MJdIqWF7Lg" type="Name"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CUdMJekBEe29MJdIqWF7Lg" x="793" y="793"/>
+            </children>
+          </contents>
+        </eAnnotations>
+      </ownedBehavior>
       <nestedClassifier xmi:type="uml:Actor" xmi:id="_LmEVIOh3Ee2ldI68-LFIVg" name="Administrador"/>
       <nestedClassifier xmi:type="uml:Component" xmi:id="_PhtrUOh3Ee2ldI68-LFIVg" name="Cliente" useCase="_lomC4Oh3Ee2ldI68-LFIVg _oRTKgOh3Ee2ldI68-LFIVg _qkYncOh3Ee2ldI68-LFIVg _s567cOh3Ee2ldI68-LFIVg">
         <ownedUseCase xmi:id="_ZBHlAOh3Ee2ldI68-LFIVg" name="UseCase1">
@@ -1648,10 +1659,18 @@
               </children>
               <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_u0fo8ej_Ee29MJdIqWF7Lg" points="[-36, 18, 122, -58]$[-152, 87, 6, 11]"/>
             </edges>
+            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_k0dR8OkAEe29MJdIqWF7Lg" element="_k0ZnkOkAEe29MJdIqWF7Lg" source="_dD2R0Oj_Ee29MJdIqWF7Lg" target="_eUCHUOj_Ee29MJdIqWF7Lg" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_k0d5AOkAEe29MJdIqWF7Lg" type="ActivityEdgeLabelCompartment">
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_k0d5AukAEe29MJdIqWF7Lg" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_k0d5A-kAEe29MJdIqWF7Lg" type="ActivityEdgeLabel"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_k0d5AekAEe29MJdIqWF7Lg" y="-186"/>
+              </children>
+              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_k0dR8ekAEe29MJdIqWF7Lg" points="[2, 10, -19, -40]$[-37, 46, -58, -4]"/>
+            </edges>
           </contents>
         </eAnnotations>
-        <node xmi:type="uml:InitialNode" xmi:id="_dD1qwOj_Ee29MJdIqWF7Lg" name="Inicio del proceso"/>
-        <node xmi:type="uml:OpaqueAction" xmi:id="_eUA5MOj_Ee29MJdIqWF7Lg" name="Menú principal" outgoing="_sgwrwOj_Ee29MJdIqWF7Lg _txLKwOj_Ee29MJdIqWF7Lg"/>
+        <node xmi:type="uml:InitialNode" xmi:id="_dD1qwOj_Ee29MJdIqWF7Lg" name="Inicio del proceso" outgoing="_k0ZnkOkAEe29MJdIqWF7Lg"/>
+        <node xmi:type="uml:OpaqueAction" xmi:id="_eUA5MOj_Ee29MJdIqWF7Lg" name="Menú principal" outgoing="_sgwrwOj_Ee29MJdIqWF7Lg _txLKwOj_Ee29MJdIqWF7Lg" incoming="_k0ZnkOkAEe29MJdIqWF7Lg"/>
         <node xmi:type="uml:OpaqueAction" xmi:id="_fWGBQOj_Ee29MJdIqWF7Lg" name="Alta de Sesión" outgoing="_sydfwOj_Ee29MJdIqWF7Lg" incoming="_sgwrwOj_Ee29MJdIqWF7Lg"/>
         <node xmi:type="uml:OpaqueAction" xmi:id="_gQOuQOj_Ee29MJdIqWF7Lg" name="Baja de Sesión" outgoing="_uFFlQOj_Ee29MJdIqWF7Lg" incoming="_txLKwOj_Ee29MJdIqWF7Lg"/>
         <node xmi:type="uml:OpaqueAction" xmi:id="_hMIV0Oj_Ee29MJdIqWF7Lg" name="Modificar Sesión" outgoing="_tE7IwOj_Ee29MJdIqWF7Lg" incoming="_sydfwOj_Ee29MJdIqWF7Lg"/>
@@ -1714,6 +1733,13 @@
             <body></body>
           </guard>
           <weight xmi:type="uml:LiteralInteger" xmi:id="_u0ea0ej_Ee29MJdIqWF7Lg" value="1"/>
+        </edge>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_k0ZnkOkAEe29MJdIqWF7Lg" source="_dD1qwOj_Ee29MJdIqWF7Lg" target="_eUA5MOj_Ee29MJdIqWF7Lg">
+          <guard xmi:type="uml:OpaqueExpression" xmi:id="_k0cD0OkAEe29MJdIqWF7Lg">
+            <language></language>
+            <body></body>
+          </guard>
+          <weight xmi:type="uml:LiteralInteger" xmi:id="_k0cD0ekAEe29MJdIqWF7Lg" value="1"/>
         </edge>
       </ownedBehavior>
       <nestedClassifier xmi:type="uml:Actor" xmi:id="_GFX3QOh4Ee2ldI68-LFIVg" name="Administrador"/>
