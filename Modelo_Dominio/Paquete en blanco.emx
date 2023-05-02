@@ -108,7 +108,7 @@
           <styles xmi:type="notation:TextStyle" xmi:id="_2x28weRMEe2MD_gCxf5htw"/>
           <styles xmi:type="notation:LineTypeStyle" xmi:id="_2x28wuRMEe2MD_gCxf5htw"/>
           <element xsi:nil="true"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2x28w-RMEe2MD_gCxf5htw" x="39864" y="2376" width="8113" height="5549"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2x28w-RMEe2MD_gCxf5htw" x="24684" y="-2244" width="8113" height="5549"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_wj8zkORNEe2MD_gCxf5htw" type="Note" fontName="Segoe UI" fontHeight="8" description="&lt;p>&lt;span style=&quot;font-size:12pt;&quot;>ENFOQUE DE LA APLICACIÓN&lt;/span>&lt;/p>&lt;p>&lt;span style=&quot;font-size:12pt;&quot;>---------------Gestión del Gimnasio&lt;/span>&lt;/p>&lt;p>&lt;span style=&quot;font-size:12pt;&quot;>-Stock material (añadir/gestionar/quitar materiales)&lt;/span>&lt;/p>&lt;p>&lt;span style=&quot;font-size:12pt;&quot;>- Añadir/quitar actividades&lt;/span>&lt;/p>&lt;p>&lt;span style=&quot;font-size:12pt;&quot;>-Alta/Baja Clientes y monitores&lt;/span>&lt;/p>&lt;p>&lt;span style=&quot;font-size:12pt;&quot;>-Cambiar monitor asociado a sesión &lt;/span>&lt;/p>&lt;p>&lt;span style=&quot;font-size:12pt;&quot;>----------------&lt;/span>&lt;/p>" fillColor="13956346" transparency="0" lineColor="12632258" lineWidth="1">
           <children xmi:type="notation:BasicDecorationNode" xmi:id="_wj9aoORNEe2MD_gCxf5htw" type="DiagramName">
@@ -120,7 +120,7 @@
           <styles xmi:type="notation:TextStyle" xmi:id="_wj8zkeRNEe2MD_gCxf5htw"/>
           <styles xmi:type="notation:LineTypeStyle" xmi:id="_wj8zkuRNEe2MD_gCxf5htw"/>
           <element xsi:nil="true"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wj8zk-RNEe2MD_gCxf5htw" x="29304" y="9636" width="16465" height="6728"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wj8zk-RNEe2MD_gCxf5htw" x="24816" y="4092" width="16465" height="6728"/>
         </children>
         <edges xmi:type="umlnotation:UMLConnector" xmi:id="_M9XH4ORIEe2MD_gCxf5htw" element="_M9RBQORIEe2MD_gCxf5htw" source="_E5ILsORIEe2MD_gCxf5htw" target="_AtIh0ORHEe2MD_gCxf5htw" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
           <children xmi:type="notation:DecorationNode" xmi:id="_M9XH4uRIEe2MD_gCxf5htw" type="NameLabel">
@@ -608,6 +608,29 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_kQOK0OiwEe28wO_p6nNF3w" value="1"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kQLHguiwEe28wO_p6nNF3w"/>
       </ownedAttribute>
+      <ownedAttribute xmi:id="_yQJHsejDEe2SE8RIaHThmA" name="cliente" type="_wr6U0OjDEe2SE8RIaHThmA"/>
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_HczvMOjDEe2SE8RIaHThmA" name="Interaction1">
+        <eAnnotations xmi:id="_HdMJsOjDEe2SE8RIaHThmA" source="uml2.diagrams">
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_HdMJsejDEe2SE8RIaHThmA" type="Sequence" element="_HczvMOjDEe2SE8RIaHThmA" name="DiagramaDeSecuenciaCliente" measurementUnit="Himetric">
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_HdMJsujDEe2SE8RIaHThmA" element="_HczvMOjDEe2SE8RIaHThmA" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_HdMJs-jDEe2SE8RIaHThmA" type="interaction_compartment">
+                <children xmi:type="umlnotation:UMLShape" xmi:id="_yQUG0OjDEe2SE8RIaHThmA" element="_yQJHsOjDEe2SE8RIaHThmA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                  <eAnnotations xmi:id="_yQVU8ejDEe2SE8RIaHThmA" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
+                    <details xmi:id="_yQVU8ujDEe2SE8RIaHThmA" key="LifelineLabelStyle" value="Represents Name and Type Name"/>
+                  </eAnnotations>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_yQVU8-jDEe2SE8RIaHThmA" type="Stereotype"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_yQVU9OjDEe2SE8RIaHThmA" type="Name"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_yQVU9ejDEe2SE8RIaHThmA" type="Parent"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yQVU8OjDEe2SE8RIaHThmA" x="264"/>
+                </children>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_HdMJtOjDEe2SE8RIaHThmA" type="Name"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HdMJtejDEe2SE8RIaHThmA" x="793" y="793"/>
+            </children>
+          </contents>
+        </eAnnotations>
+        <lifeline xmi:id="_yQJHsOjDEe2SE8RIaHThmA" name="cliente" represents="_yQJHsejDEe2SE8RIaHThmA"/>
+      </ownedBehavior>
       <nestedClassifier xmi:type="uml:Component" xmi:id="_fj5koOi7Ee28wO_p6nNF3w" name="Cliente" useCase="_iBKRQOi7Ee28wO_p6nNF3w _jZTv8Oi7Ee28wO_p6nNF3w _kkDEwOi7Ee28wO_p6nNF3w _lpC98Oi7Ee28wO_p6nNF3w _naGr4Oi7Ee28wO_p6nNF3w">
         <ownedUseCase xmi:id="_iBKRQOi7Ee28wO_p6nNF3w" name="Añadir Cliente" subject="_fj5koOi7Ee28wO_p6nNF3w"/>
         <ownedUseCase xmi:id="_jZTv8Oi7Ee28wO_p6nNF3w" name="Eliminar Cliente" subject="_fj5koOi7Ee28wO_p6nNF3w"/>
@@ -616,6 +639,7 @@
         <ownedUseCase xmi:id="_naGr4Oi7Ee28wO_p6nNF3w" name="Modificar Cliente" subject="_fj5koOi7Ee28wO_p6nNF3w"/>
       </nestedClassifier>
       <nestedClassifier xmi:type="uml:Actor" xmi:id="_hNYD4Oi7Ee28wO_p6nNF3w" name="Monitor"/>
+      <nestedClassifier xmi:type="uml:Actor" xmi:id="_wr6U0OjDEe2SE8RIaHThmA" name="Cliente"/>
       <ownedOperation xmi:id="_1LZ2oOgNEe2MKukoEvx4yQ" name="getTlf">
         <ownedParameter xmi:id="_2EUboOgNEe2MKukoEvx4yQ" name="Parameter1" direction="return">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
@@ -1391,6 +1415,17 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vky2YuiwEe28wO_p6nNF3w" value="1"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_vky2YeiwEe28wO_p6nNF3w" value="1"/>
       </ownedAttribute>
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_Wcrn0OjDEe2SE8RIaHThmA" name="Interaction1">
+        <eAnnotations xmi:id="_WcsO4OjDEe2SE8RIaHThmA" source="uml2.diagrams">
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_WcsO4ejDEe2SE8RIaHThmA" type="Sequence" element="_Wcrn0OjDEe2SE8RIaHThmA" name="DiagramaDeSecuenciaSesion" measurementUnit="Himetric">
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_WcsO4ujDEe2SE8RIaHThmA" element="_Wcrn0OjDEe2SE8RIaHThmA" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_WcsO4-jDEe2SE8RIaHThmA" type="interaction_compartment"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_WcsO5OjDEe2SE8RIaHThmA" type="Name"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WcsO5ejDEe2SE8RIaHThmA" x="793" y="793"/>
+            </children>
+          </contents>
+        </eAnnotations>
+      </ownedBehavior>
       <nestedClassifier xmi:type="uml:Component" xmi:id="_a_3OMOi6Ee28wO_p6nNF3w" name="Sesion" useCase="_ci8xkOi6Ee28wO_p6nNF3w _eEs4MOi6Ee28wO_p6nNF3w _fz_rkOi6Ee28wO_p6nNF3w _hmoG0Oi6Ee28wO_p6nNF3w _mRCAcOi6Ee28wO_p6nNF3w _uyxYAOi6Ee28wO_p6nNF3w">
         <ownedUseCase xmi:id="_ci8xkOi6Ee28wO_p6nNF3w" name="Mostrar Sesion" subject="_a_3OMOi6Ee28wO_p6nNF3w"/>
         <ownedUseCase xmi:id="_eEs4MOi6Ee28wO_p6nNF3w" name="Modificar Sesion" subject="_a_3OMOi6Ee28wO_p6nNF3w"/>
@@ -1735,6 +1770,17 @@
       <ownedAttribute xmi:id="_JCugsOR8Ee2nKe5DJz1QTA" name="repeticiones" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedAttribute>
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_KrFpEOjDEe2SE8RIaHThmA" name="Interaction1">
+        <eAnnotations xmi:id="_KrM90OjDEe2SE8RIaHThmA" source="uml2.diagrams">
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_KrM90ejDEe2SE8RIaHThmA" type="Sequence" element="_KrFpEOjDEe2SE8RIaHThmA" name="DiagramaDeSecuenciaEntrenamiento" measurementUnit="Himetric">
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_KrM90ujDEe2SE8RIaHThmA" element="_KrFpEOjDEe2SE8RIaHThmA" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_KrM90-jDEe2SE8RIaHThmA" type="interaction_compartment"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_KrM91OjDEe2SE8RIaHThmA" type="Name"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KrM91ejDEe2SE8RIaHThmA" x="793" y="793"/>
+            </children>
+          </contents>
+        </eAnnotations>
+      </ownedBehavior>
       <nestedClassifier xmi:type="uml:Component" xmi:id="_7cg8MOi5Ee28wO_p6nNF3w" name="Entrenamiento" useCase="_AdMAwOi6Ee28wO_p6nNF3w _DnZ6AOi6Ee28wO_p6nNF3w _I8rVkOi6Ee28wO_p6nNF3w _KGYIkOi6Ee28wO_p6nNF3w _QhbgcOi6Ee28wO_p6nNF3w">
         <ownedUseCase xmi:id="_DnZ6AOi6Ee28wO_p6nNF3w" name="Eliminar Entrenamiento" subject="_7cg8MOi5Ee28wO_p6nNF3w"/>
         <ownedUseCase xmi:id="_I8rVkOi6Ee28wO_p6nNF3w" name="Mostrar Entrenamiento" subject="_7cg8MOi5Ee28wO_p6nNF3w"/>
@@ -2396,6 +2442,17 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nlalA-iwEe28wO_p6nNF3w" value="1"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_nlalAuiwEe28wO_p6nNF3w"/>
       </ownedAttribute>
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_UTWj0OjDEe2SE8RIaHThmA" name="Interaction1">
+        <eAnnotations xmi:id="_UTWj0ejDEe2SE8RIaHThmA" source="uml2.diagrams">
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_UTWj0ujDEe2SE8RIaHThmA" type="Sequence" element="_UTWj0OjDEe2SE8RIaHThmA" name="DiagramaDeSecuenciaMonitor" measurementUnit="Himetric">
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_UTWj0-jDEe2SE8RIaHThmA" element="_UTWj0OjDEe2SE8RIaHThmA" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_UTWj1OjDEe2SE8RIaHThmA" type="interaction_compartment"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_UTWj1ejDEe2SE8RIaHThmA" type="Name"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UTWj1ujDEe2SE8RIaHThmA" x="793" y="793"/>
+            </children>
+          </contents>
+        </eAnnotations>
+      </ownedBehavior>
       <nestedClassifier xmi:type="uml:Component" xmi:id="_32XfcOi6Ee28wO_p6nNF3w" name="Monitor" useCase="_5g_OMOi6Ee28wO_p6nNF3w _7ZiEMOi6Ee28wO_p6nNF3w _8f85sOi6Ee28wO_p6nNF3w _9rF3IOi6Ee28wO_p6nNF3w">
         <ownedUseCase xmi:id="_5g_OMOi6Ee28wO_p6nNF3w" name="Añadir Monitor" subject="_32XfcOi6Ee28wO_p6nNF3w"/>
         <ownedUseCase xmi:id="_7ZiEMOi6Ee28wO_p6nNF3w" name="Baja Monitor" subject="_32XfcOi6Ee28wO_p6nNF3w"/>
@@ -2732,6 +2789,17 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_eexJkeiwEe28wO_p6nNF3w" value="1"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_eexJkOiwEe28wO_p6nNF3w" value="1"/>
       </ownedAttribute>
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_R5ty8OjDEe2SE8RIaHThmA" name="Interaction1">
+        <eAnnotations xmi:id="_R5ty8ejDEe2SE8RIaHThmA" source="uml2.diagrams">
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_R5ty8ujDEe2SE8RIaHThmA" type="Sequence" element="_R5ty8OjDEe2SE8RIaHThmA" name="DiagramaDeSecuenciaMaterial" measurementUnit="Himetric">
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_R5ty8-jDEe2SE8RIaHThmA" element="_R5ty8OjDEe2SE8RIaHThmA" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_R5ty9OjDEe2SE8RIaHThmA" type="interaction_compartment"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_R5ty9ejDEe2SE8RIaHThmA" type="Name"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_R5ty9ujDEe2SE8RIaHThmA" x="793" y="793"/>
+            </children>
+          </contents>
+        </eAnnotations>
+      </ownedBehavior>
       <nestedClassifier xmi:type="uml:Component" xmi:id="_GtXv8Oi7Ee28wO_p6nNF3w" name="Material" useCase="_H3YE8Oi7Ee28wO_p6nNF3w _JPRsAOi7Ee28wO_p6nNF3w _KdXPwOi7Ee28wO_p6nNF3w _OsPrAOi7Ee28wO_p6nNF3w _Qh1ToOi7Ee28wO_p6nNF3w">
         <ownedUseCase xmi:id="_H3YE8Oi7Ee28wO_p6nNF3w" name="Añadir Material" subject="_GtXv8Oi7Ee28wO_p6nNF3w"/>
         <ownedUseCase xmi:id="_JPRsAOi7Ee28wO_p6nNF3w" name="Eliminar Material" subject="_GtXv8Oi7Ee28wO_p6nNF3w"/>
