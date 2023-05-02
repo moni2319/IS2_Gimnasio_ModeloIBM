@@ -57,7 +57,7 @@
           <children xmi:type="notation:SemanticListCompartment" xmi:id="__GMjw-RHEe2MD_gCxf5htw" type="OperationCompartment"/>
           <children xmi:type="notation:SemanticListCompartment" xmi:id="__GNK0ORHEe2MD_gCxf5htw" visible="false" type="SignalCompartment"/>
           <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="__GNK0eRHEe2MD_gCxf5htw" visible="false" type="StructureCompartment"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="__GLVoeRHEe2MD_gCxf5htw" x="12408" y="12540" width="4969" height="4377"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="__GLVoeRHEe2MD_gCxf5htw" x="15006" y="11808" width="4969" height="4377"/>
         </children>
         <children xmi:type="umlnotation:UMLShape" xmi:id="_E5ILsORIEe2MD_gCxf5htw" element="_E5FIYORIEe2MD_gCxf5htw" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
           <children xmi:type="notation:DecorationNode" xmi:id="_E5IywORIEe2MD_gCxf5htw" type="ImageCompartment">
@@ -1450,12 +1450,6 @@
       </eAnnotations>
       <generalization xmi:id="_N3DwAORIEe2MD_gCxf5htw" general="_AtGsoORHEe2MD_gCxf5htw"/>
       <ownedUseCase xmi:id="_TW-3QOh4Ee2ldI68-LFIVg" name="UseCase1"/>
-      <ownedAttribute xmi:id="_XWG9AORLEe2MD_gCxf5htw" name="numEjercicios" visibility="private">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:id="_JCugsOR8Ee2nKe5DJz1QTA" name="repeticiones" visibility="private">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-      </ownedAttribute>
       <ownedBehavior xmi:type="uml:Activity" xmi:id="_RvtEEOj_Ee29MJdIqWF7Lg" name="Activity1">
         <eAnnotations xmi:id="_RvtrIOj_Ee29MJdIqWF7Lg" source="uml2.diagrams">
           <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_RvtrIej_Ee29MJdIqWF7Lg" type="Activity" element="_RvtEEOj_Ee29MJdIqWF7Lg" name="EntrenamientoDiagramadeactividad" measurementUnit="Himetric">
