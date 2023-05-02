@@ -609,11 +609,21 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kQLHguiwEe28wO_p6nNF3w"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_yQJHsejDEe2SE8RIaHThmA" name="cliente" type="_wr6U0OjDEe2SE8RIaHThmA"/>
+      <ownedAttribute xmi:id="_DwDesejFEe2SE8RIaHThmA" name="No se la vdd" type="_C-sTMOjFEe2SE8RIaHThmA"/>
       <ownedBehavior xmi:type="uml:Interaction" xmi:id="_HczvMOjDEe2SE8RIaHThmA" name="Interaction1">
         <eAnnotations xmi:id="_HdMJsOjDEe2SE8RIaHThmA" source="uml2.diagrams">
           <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_HdMJsejDEe2SE8RIaHThmA" type="Sequence" element="_HczvMOjDEe2SE8RIaHThmA" name="DiagramaDeSecuenciaCliente" measurementUnit="Himetric">
             <children xmi:type="umlnotation:UMLShape" xmi:id="_HdMJsujDEe2SE8RIaHThmA" element="_HczvMOjDEe2SE8RIaHThmA" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
               <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_HdMJs-jDEe2SE8RIaHThmA" type="interaction_compartment">
+                <children xmi:type="umlnotation:UMLShape" xmi:id="_EQ7-MOjFEe2SE8RIaHThmA" element="_DwDesOjFEe2SE8RIaHThmA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                  <eAnnotations xmi:id="_EQ8lQOjFEe2SE8RIaHThmA" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
+                    <details xmi:id="_EQ8lQejFEe2SE8RIaHThmA" key="LifelineLabelStyle" value="Represents Name and Type Name"/>
+                  </eAnnotations>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_EQ8lQujFEe2SE8RIaHThmA" type="Stereotype"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_EQ8lQ-jFEe2SE8RIaHThmA" type="Name"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_EQ8lROjFEe2SE8RIaHThmA" type="Parent"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EQ7-MejFEe2SE8RIaHThmA" x="264"/>
+                </children>
                 <children xmi:type="umlnotation:UMLShape" xmi:id="_yQUG0OjDEe2SE8RIaHThmA" element="_yQJHsOjDEe2SE8RIaHThmA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
                   <eAnnotations xmi:id="_yQVU8ejDEe2SE8RIaHThmA" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
                     <details xmi:id="_yQVU8ujDEe2SE8RIaHThmA" key="LifelineLabelStyle" value="Represents Name and Type Name"/>
@@ -630,6 +640,7 @@
           </contents>
         </eAnnotations>
         <lifeline xmi:id="_yQJHsOjDEe2SE8RIaHThmA" name="cliente" represents="_yQJHsejDEe2SE8RIaHThmA"/>
+        <lifeline xmi:id="_DwDesOjFEe2SE8RIaHThmA" name="cliente2" represents="_DwDesejFEe2SE8RIaHThmA"/>
       </ownedBehavior>
       <nestedClassifier xmi:type="uml:Component" xmi:id="_fj5koOi7Ee28wO_p6nNF3w" name="Cliente" useCase="_iBKRQOi7Ee28wO_p6nNF3w _jZTv8Oi7Ee28wO_p6nNF3w _kkDEwOi7Ee28wO_p6nNF3w _lpC98Oi7Ee28wO_p6nNF3w _naGr4Oi7Ee28wO_p6nNF3w">
         <ownedUseCase xmi:id="_iBKRQOi7Ee28wO_p6nNF3w" name="Añadir Cliente" subject="_fj5koOi7Ee28wO_p6nNF3w"/>
@@ -640,6 +651,7 @@
       </nestedClassifier>
       <nestedClassifier xmi:type="uml:Actor" xmi:id="_hNYD4Oi7Ee28wO_p6nNF3w" name="Monitor"/>
       <nestedClassifier xmi:type="uml:Actor" xmi:id="_wr6U0OjDEe2SE8RIaHThmA" name="Cliente"/>
+      <nestedClassifier xmi:type="uml:Component" xmi:id="_C-sTMOjFEe2SE8RIaHThmA" name="Cliente"/>
       <ownedOperation xmi:id="_1LZ2oOgNEe2MKukoEvx4yQ" name="getTlf">
         <ownedParameter xmi:id="_2EUboOgNEe2MKukoEvx4yQ" name="Parameter1" direction="return">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
