@@ -1290,7 +1290,7 @@
             <children xmi:type="notation:SemanticListCompartment" xmi:id="_BvFfAAL8Ee6Uato954FSlg" type="AttributeCompartment"/>
             <children xmi:type="notation:SemanticListCompartment" xmi:id="_BvFfAQL8Ee6Uato954FSlg" type="OperationCompartment"/>
             <children xmi:type="notation:SemanticListCompartment" xmi:id="_BvHUMAL8Ee6Uato954FSlg" visible="false" type="SignalCompartment"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bu9jMQL8Ee6Uato954FSlg" y="8610"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bu9jMQL8Ee6Uato954FSlg" x="246" y="7011"/>
           </children>
           <children xmi:type="umlnotation:UMLShape" xmi:id="_Re3VIAL9Ee6Uato954FSlg" element="_Re2HAAL9Ee6Uato954FSlg" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
             <children xmi:type="notation:DecorationNode" xmi:id="_Re3VIgL9Ee6Uato954FSlg" type="ImageCompartment">
@@ -1427,6 +1427,21 @@
           <ownedParameter xmi:id="_OefJ0AL8Ee6Uato954FSlg" name="Parameter1" direction="return">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
           </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ytAwEAOBEe6X6Pchjybkzg" name="bajaSesion">
+          <ownedParameter xmi:id="_094mgAOBEe6X6Pchjybkzg" name="int id"/>
+          <ownedParameter xmi:id="_0950oAOBEe6X6Pchjybkzg" name="Parameter1" type="_4kObEAOBEe6X6Pchjybkzg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8qwyoAOBEe6X6Pchjybkzg" name="buscar">
+          <ownedParameter xmi:id="_9_7OwAOBEe6X6Pchjybkzg" name="int id"/>
+          <ownedParameter xmi:id="_9_7OwQOBEe6X6Pchjybkzg" name="Parameter1" type="_s9Jd8AL3Ee6SMPJ39OkXZA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="__Ks_0AOBEe6X6Pchjybkzg" name="modificarSesion">
+          <ownedParameter xmi:id="_CCo2QAOCEe6X6Pchjybkzg" name="TransSesion tSesion"/>
+          <ownedParameter xmi:id="_CCo2QQOCEe6X6Pchjybkzg" name="Parameter1" type="_4kObEAOBEe6X6Pchjybkzg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Ddr38AOCEe6X6Pchjybkzg" name="listaSesiones">
+          <ownedParameter xmi:id="_GaeZMAOCEe6X6Pchjybkzg" name="Parameter1" type="_Wqv5QAL_Ee6XQrg73m92_Q" direction="return"/>
         </ownedOperation>
       </nestedClassifier>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_s9Jd8AL3Ee6SMPJ39OkXZA" name="TransSesion">
@@ -2968,6 +2983,7 @@
       <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_xlscwAL_Ee6XQrg73m92_Q" name="DAOCliente"/>
       <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_0y1uMAL_Ee6XQrg73m92_Q" name="DAOMaterial"/>
       <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_5o-WsAL_Ee6XQrg73m92_Q" name="DAOMonitor"/>
+      <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_4kObEAOBEe6X6Pchjybkzg" name="boolean"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Enumeration" xmi:id="_nFBF4ORLEe2MD_gCxf5htw" name="Tipo Actividad"/>
     <packagedElement xmi:type="uml:DataType" xmi:id="_r6YSUORLEe2MD_gCxf5htw" name="DataType1"/>
