@@ -1715,7 +1715,7 @@
             <children xmi:type="notation:SemanticListCompartment" xmi:id="_0Hq9Eg4-Ee6zm6xihhQm8w" type="OperationCompartment"/>
             <children xmi:type="notation:SemanticListCompartment" xmi:id="_0Hq9Ew4-Ee6zm6xihhQm8w" visible="false" type="SignalCompartment"/>
             <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_0Hq9FA4-Ee6zm6xihhQm8w" visible="false" type="StructureCompartment"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0Hpu8Q4-Ee6zm6xihhQm8w" x="13038" y="5289" width="3505" height="2040"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0Hpu8Q4-Ee6zm6xihhQm8w" x="12300" y="5904" width="3505" height="2040"/>
           </children>
           <children xmi:type="umlnotation:UMLShape" xmi:id="_FpIosA4_Ee6zm6xihhQm8w" element="_Fo8bcA4_Ee6zm6xihhQm8w" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
             <children xmi:type="notation:DecorationNode" xmi:id="_FpJ20A4_Ee6zm6xihhQm8w" type="ImageCompartment">
@@ -1823,6 +1823,14 @@
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qCfnYQ4_Ee6zm6xihhQm8w" y="-124"/>
             </children>
             <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qCfAUQ4_Ee6zm6xihhQm8w" points="[-67, 21, 190, -46]$[-165, 68, 92, 1]"/>
+          </edges>
+          <edges xmi:type="umlnotation:UMLConnector" xmi:id="_wxVd8A4_Ee6zm6xihhQm8w" element="_wwrWoA4_Ee6zm6xihhQm8w" source="_0Hpu8A4-Ee6zm6xihhQm8w" target="_0Hpu8A4-Ee6zm6xihhQm8w" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+            <children xmi:type="notation:DecorationNode" xmi:id="_wxVd8g4_Ee6zm6xihhQm8w" type="NameLabel">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_wxWFAA4_Ee6zm6xihhQm8w" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_wxWFAQ4_Ee6zm6xihhQm8w" type="Name"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wxVd8w4_Ee6zm6xihhQm8w" y="-124"/>
+            </children>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_wxVd8Q4_Ee6zm6xihhQm8w" points="[98, -5, 98, -5]$[98, -5, 98, -5]"/>
           </edges>
         </contents>
       </eAnnotations>
@@ -2006,7 +2014,7 @@
       <nestedClassifier xmi:type="uml:Class" xmi:id="_99K4AA49Ee6zm6xihhQm8w" name="TextField : JAVA"/>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_Zsv9cA4-Ee6zm6xihhQm8w" name="JTextField :JAVA"/>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_osNmYA4-Ee6zm6xihhQm8w" name="JLabel : JAVA"/>
-      <nestedClassifier xmi:type="uml:Class" xmi:id="_0HfW4A4-Ee6zm6xihhQm8w" name="Controlador">
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_0HfW4A4-Ee6zm6xihhQm8w" name="Controlador" clientDependency="_wwrWoA4_Ee6zm6xihhQm8w">
         <ownedOperation xmi:id="_IZ45EA4_Ee6zm6xihhQm8w" name="obtenerInstancia">
           <ownedParameter xmi:id="_NnlF8A4_Ee6zm6xihhQm8w" name="Parameter1" type="_8WIs4ABUEe6SMPJ39OkXZA" direction="return"/>
         </ownedOperation>
@@ -3623,6 +3631,7 @@
     <packagedElement xmi:type="uml:Dependency" xmi:id="_h1VYsA4_Ee6zm6xihhQm8w" supplier="_0HfW4A4-Ee6zm6xihhQm8w" client="_Fo8bcA4_Ee6zm6xihhQm8w"/>
     <packagedElement xmi:type="uml:Dependency" xmi:id="_ipojcA4_Ee6zm6xihhQm8w" supplier="_0HfW4A4-Ee6zm6xihhQm8w" client="_0uowAABUEe6SMPJ39OkXZA"/>
     <packagedElement xmi:type="uml:Dependency" xmi:id="_qBfh0A4_Ee6zm6xihhQm8w" supplier="_nqRy0A4_Ee6zm6xihhQm8w" client="_0uowAABUEe6SMPJ39OkXZA"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_wwrWoA4_Ee6zm6xihhQm8w" supplier="_0HfW4A4-Ee6zm6xihhQm8w" client="_0HfW4A4-Ee6zm6xihhQm8w"/>
     <profileApplication xmi:id="_LUBddORGEe2MD_gCxf5htw">
       <eAnnotations xmi:id="_LUBddeRGEe2MD_gCxf5htw" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
