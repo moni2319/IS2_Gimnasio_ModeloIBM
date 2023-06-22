@@ -407,6 +407,9 @@
             <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4ihWQOh3Ee2ldI68-LFIVg" id="(0.41725768321513,1.0)"/>
           </edges>
         </contents>
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_4UXcABEoEe6vsIO7Llacyw" type="Class" name="DiagramaDeClase1">
+          <element xsi:nil="true"/>
+        </contents>
       </eAnnotations>
       <ownedUseCase xmi:id="_M5fr4Oh3Ee2ldI68-LFIVg" name="UseCase1"/>
       <ownedAttribute xmi:id="_rYszgORJEe2MD_gCxf5htw" name="teléfono" visibility="private">
