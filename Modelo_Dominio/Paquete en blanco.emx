@@ -1439,6 +1439,8 @@
         <ownedOperation xmi:id="_ftsLwBEpEe6vsIO7Llacyw" name="buscarCliente"/>
         <ownedOperation xmi:id="_f2RgABEpEe6vsIO7Llacyw" name="listarClientes"/>
         <ownedOperation xmi:id="_GhMlwBE3Ee6vsIO7Llacyw" name="mostrarSesiones"/>
+        <ownedOperation xmi:id="_Chl1QBE6Ee6vsIO7Llacyw" name="apuntarCliente"/>
+        <ownedOperation xmi:id="_Du25oBE6Ee6vsIO7Llacyw" name="quitarCliente"/>
       </nestedClassifier>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_pz18YBEpEe6vsIO7Llacyw" name="TransCliente">
         <ownedAttribute xmi:id="_zMSScBEpEe6vsIO7Llacyw" name="DNI" visibility="private">
@@ -1507,6 +1509,7 @@
         <ownedOperation xmi:id="_BEHSABE3Ee6vsIO7Llacyw" name="mostrarSesiones"/>
         <ownedOperation xmi:id="_T658YBE4Ee6vsIO7Llacyw" name="apuntarCliente"/>
         <ownedOperation xmi:id="_U8RSwBE4Ee6vsIO7Llacyw" name="quitarCliente"/>
+        <ownedOperation xmi:id="_5LV3kBE5Ee6vsIO7Llacyw" name="buscarCliente"/>
       </nestedClassifier>
       <nestedClassifier xmi:type="uml:Interface" xmi:id="_H86yUBE2Ee6vsIO7Llacyw" name="DAOCliente">
         <ownedOperation xmi:id="_JzqRgBE2Ee6vsIO7Llacyw" name="altaCliente"/>
@@ -1516,6 +1519,8 @@
         <ownedOperation xmi:id="_Nl4l8BE2Ee6vsIO7Llacyw" name="listarCliente"/>
         <ownedOperation xmi:id="_IToXQBE4Ee6vsIO7Llacyw" name="apuntarCliente"/>
         <ownedOperation xmi:id="_JYE20BE4Ee6vsIO7Llacyw" name="quitarCliente"/>
+        <ownedOperation xmi:id="_y-0D4BE5Ee6vsIO7Llacyw" name="buscarCliente"/>
+        <ownedOperation xmi:id="_1POnUBE5Ee6vsIO7Llacyw" name="mostrarSesiones"/>
       </nestedClassifier>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_PtYd8BE2Ee6vsIO7Llacyw" name="FactoriaIntegracion" clientDependency="_tAcvYBE2Ee6vsIO7Llacyw">
         <ownedOperation xmi:id="_RQyxcBE2Ee6vsIO7Llacyw" name="getDAOActividad"/>
@@ -3493,8 +3498,6 @@
           <ownedParameter xmi:id="_GaeZMAOCEe6X6Pchjybkzg" name="Parameter1" type="_Wqv5QAL_Ee6XQrg73m92_Q" direction="return"/>
         </ownedOperation>
         <ownedOperation xmi:id="_K7SygBE3Ee6vsIO7Llacyw" name="mostrarClientes"/>
-        <ownedOperation xmi:id="_Wf620BE4Ee6vsIO7Llacyw" name="apuntarCliente"/>
-        <ownedOperation xmi:id="_XVd-wBE4Ee6vsIO7Llacyw" name="quitarCliente"/>
       </nestedClassifier>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_s9Jd8AL3Ee6SMPJ39OkXZA" name="TransSesion">
         <ownedAttribute xmi:id="_CRBEMAL4Ee6SMPJ39OkXZA" name="Id" visibility="private">
@@ -3572,8 +3575,6 @@
         <ownedOperation xmi:id="_TKPm8AL_Ee6XQrg73m92_Q" name="listarSesion">
           <ownedParameter xmi:id="_VtOhEAL_Ee6XQrg73m92_Q" name="Parameter1" type="_Wqv5QAL_Ee6XQrg73m92_Q" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_M9CLUBE4Ee6vsIO7Llacyw" name="apuntarCliente"/>
-        <ownedOperation xmi:id="_OQ1VgBE4Ee6vsIO7Llacyw" name="quitarCliente"/>
       </nestedClassifier>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_Zs734AL_Ee6XQrg73m92_Q" name="SASesionImp" clientDependency="_b5gdIAL_Ee6XQrg73m92_Q _BhRvsAMAEe6XQrg73m92_Q _KxIxgAMAEe6XQrg73m92_Q">
         <interfaceRealization xmi:id="_b5gdIAL_Ee6XQrg73m92_Q" supplier="_9aNekAL9Ee6XQrg73m92_Q" client="_Zs734AL_Ee6XQrg73m92_Q" contract="_9aNekAL9Ee6XQrg73m92_Q"/>
