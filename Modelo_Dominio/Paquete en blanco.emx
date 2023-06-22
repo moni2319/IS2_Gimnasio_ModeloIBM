@@ -985,6 +985,7 @@
         <ownedOperation xmi:id="_fnW6QBEpEe6vsIO7Llacyw" name="mostrarCliente"/>
         <ownedOperation xmi:id="_ftsLwBEpEe6vsIO7Llacyw" name="buscarCliente"/>
         <ownedOperation xmi:id="_f2RgABEpEe6vsIO7Llacyw" name="listarClientes"/>
+        <ownedOperation xmi:id="_GhMlwBE3Ee6vsIO7Llacyw" name="mostrarSesiones"/>
       </nestedClassifier>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_pz18YBEpEe6vsIO7Llacyw" name="TransCliente">
         <ownedAttribute xmi:id="_zMSScBEpEe6vsIO7Llacyw" name="DNI" visibility="private">
@@ -1050,6 +1051,7 @@
         <ownedOperation xmi:id="_EYJrEBE2Ee6vsIO7Llacyw" name="mostrarCliente"/>
         <ownedOperation xmi:id="_FRzP4BE2Ee6vsIO7Llacyw" name="modificarCliente"/>
         <ownedOperation xmi:id="_GI86UBE2Ee6vsIO7Llacyw" name="listarCliente"/>
+        <ownedOperation xmi:id="_BEHSABE3Ee6vsIO7Llacyw" name="mostrarSesiones"/>
       </nestedClassifier>
       <nestedClassifier xmi:type="uml:Interface" xmi:id="_H86yUBE2Ee6vsIO7Llacyw" name="DAOCliente">
         <ownedOperation xmi:id="_JzqRgBE2Ee6vsIO7Llacyw" name="altaCliente"/>
@@ -2990,6 +2992,7 @@
         <ownedOperation xmi:id="_Ddr38AOCEe6X6Pchjybkzg" name="listaSesiones">
           <ownedParameter xmi:id="_GaeZMAOCEe6X6Pchjybkzg" name="Parameter1" type="_Wqv5QAL_Ee6XQrg73m92_Q" direction="return"/>
         </ownedOperation>
+        <ownedOperation xmi:id="_K7SygBE3Ee6vsIO7Llacyw" name="mostrarClientes"/>
       </nestedClassifier>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_s9Jd8AL3Ee6SMPJ39OkXZA" name="TransSesion">
         <ownedAttribute xmi:id="_CRBEMAL4Ee6SMPJ39OkXZA" name="Id" visibility="private">
