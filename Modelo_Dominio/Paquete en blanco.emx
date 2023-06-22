@@ -4460,6 +4460,18 @@
       <ownedAttribute xmi:id="_cKEHsA4uEe6zm6xihhQm8w" name="idMonito" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedAttribute>
+      <ownedBehavior xmi:type="uml:Activity" xmi:id="_oH_04BFFEe6vsIO7Llacyw" name="Activity1">
+        <eAnnotations xmi:id="_oIkcoBFFEe6vsIO7Llacyw" source="uml2.diagrams">
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_oItmkBFFEe6vsIO7Llacyw" type="Activity" element="_oH_04BFFEe6vsIO7Llacyw" name="DiagramaDeActividad1" measurementUnit="Himetric">
+            <children xmi:type="umlnotation:UMLFrame" xmi:id="_oItmkRFFEe6vsIO7Llacyw" type="Activity Frame" element="_oH_04BFFEe6vsIO7Llacyw" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_oItmkhFFEe6vsIO7Llacyw" type="ActivityCompartment"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_oItmkxFFEe6vsIO7Llacyw" type="Name"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oItmlBFFEe6vsIO7Llacyw" x="793" y="793"/>
+            </children>
+            <styles xmi:type="notation:BooleanValueStyle" xmi:id="_oItmlRFFEe6vsIO7Llacyw" name="support_hide_pins"/>
+          </contents>
+        </eAnnotations>
+      </ownedBehavior>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_0uowAABUEe6SMPJ39OkXZA" name="VMostrarSesion" clientDependency="_AYtKcABVEe6SMPJ39OkXZA _ZhqL4ABVEe6SMPJ39OkXZA _b-ASgABVEe6SMPJ39OkXZA _n4PFYA42Ee6zm6xihhQm8w _oriKkA42Ee6zm6xihhQm8w _3XclYA42Ee6zm6xihhQm8w _X9K2MA4-Ee6zm6xihhQm8w _bv_AgA4-Ee6zm6xihhQm8w _kW7BIA4-Ee6zm6xihhQm8w _q31wcA4-Ee6zm6xihhQm8w _eOM58A4_Ee6zm6xihhQm8w _ipojcA4_Ee6zm6xihhQm8w _qBfh0A4_Ee6zm6xihhQm8w _4PyMgA4_Ee6zm6xihhQm8w _MmWAgA5BEe6zm6xihhQm8w _Qh53IA5BEe6zm6xihhQm8w _caw7gA5BEe6zm6xihhQm8w _dqF1YA5BEe6zm6xihhQm8w _wk-LAA5BEe6zm6xihhQm8w _zM3aUA5BEe6zm6xihhQm8w __8ThYA5BEe6zm6xihhQm8w _Aq7h8A5CEe6zm6xihhQm8w _DFeRwA5CEe6zm6xihhQm8w _GbtNwA5CEe6zm6xihhQm8w _LoifAA5CEe6zm6xihhQm8w _qz33MBFDEe6vsIO7Llacyw">
         <generalization xmi:id="_a_l_AA42Ee6zm6xihhQm8w" general="_YB-XUA42Ee6zm6xihhQm8w"/>
         <ownedAttribute xmi:id="_SL1qYA42Ee6zm6xihhQm8w" name="jButton : JAVA" visibility="private" type="_NJZrQA42Ee6zm6xihhQm8w" aggregation="shared" association="_SLynEA42Ee6zm6xihhQm8w">
