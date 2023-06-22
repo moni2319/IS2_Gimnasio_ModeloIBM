@@ -3373,11 +3373,6 @@
       <ownedOperation xmi:id="_2KTkUOgMEe2MKukoEvx4yQ" name="setNumEjercicios">
         <ownedParameter xmi:id="_5pEKMOgMEe2MKukoEvx4yQ" name="Integer"/>
       </ownedOperation>
-      <ownedOperation xmi:id="_25wEQOgMEe2MKukoEvx4yQ" name="setName">
-        <ownedParameter xmi:id="_AiguQOgNEe2MKukoEvx4yQ" name="Parameter1" direction="return">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        </ownedParameter>
-      </ownedOperation>
       <ownedOperation xmi:id="_2_ZZQOgMEe2MKukoEvx4yQ" name="setRepeticiones">
         <ownedParameter xmi:id="_BuPhkOgNEe2MKukoEvx4yQ" name="Parameter1" direction="return">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
